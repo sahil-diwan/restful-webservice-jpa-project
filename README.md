@@ -2,6 +2,8 @@
 Creating a Restful Service with all the required CRUD operations using JPA
 
 Things required to create a JPA CRUD Restful Webservice.
+
+
 	1.Create Config file.
 	2.Add Properties file and specific dependencies in the pom.xml
 	3.JPA Entity
@@ -12,10 +14,14 @@ Things required to create a JPA CRUD Restful Webservice.
 
 
 1. Create a database studentdb
+
+
 		create database studentdb;
 		use studentdb; 
 		
 2. Create a table and fill with the following data
+
+
 		create table studentdetails(
 			student_id int primary key,
 			student_name char(30),
