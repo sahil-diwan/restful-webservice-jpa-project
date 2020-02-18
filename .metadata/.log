@@ -1,0 +1,244 @@
+!SESSION 2020-02-18 11:40:08.154 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data X:\SD SOCGEN 17-02-2020\Small Project\BackEnd\Spring Boot Rest JPA Project\restful-webservice-jpa-project -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.equinox.ds 1 0 2020-02-18 11:40:10.300
+!MESSAGE Could not bind a reference of component com.sap.it.cmd.handler. The reference is: Reference[name = ICMDContributor, interface = com.sap.it.cmd.provider.ICMDContributor, policy = dynamic, cardinality = 0..n, target = null, bind = bindCMDFeature, unbind = null]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2020-02-18 11:40:10.305
+!MESSAGE Could not bind a reference of component com.sap.it.cmd.handler. The reference is: Reference[name = CapabilityCMDProvider, interface = com.sap.it.cmd.provider.CapabilityCMDProvider, policy = dynamic, cardinality = 0..1, target = null, bind = bindCapabilityCMDProvider, unbind = null]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2020-02-18 11:40:10.713
+!MESSAGE Could not bind a reference of component com.sap.it.ds.intrsp.md.api. The reference is: Reference[name = IConnectionProperties, interface = com.sap.it.ds.intrsp.md.api.IConnectionProperties, policy = dynamic, cardinality = 0..n, target = null, bind = bindConnectionProperties, unbind = unbindConnectionProperties]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2020-02-18 11:40:10.718
+!MESSAGE Could not bind a reference of component com.sap.it.ds.intrsp.md.api. The reference is: Reference[name = IDataSource, interface = com.sap.it.ds.intrsp.md.api.IDataSource, policy = dynamic, cardinality = 0..n, target = null, bind = bindDataSource, unbind = unbindDataSource]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2020-02-18 11:40:10.723
+!MESSAGE Could not bind a reference of component com.sap.it.ds.intrsp.md.api. The reference is: Reference[name = IQueryBuilder, interface = com.sap.it.ds.intrsp.md.api.service.IQueryBuilderService, policy = dynamic, cardinality = 0..n, target = null, bind = bindQueryBuilder, unbind = unbindQueryBuilder]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2020-02-18 11:40:10.727
+!MESSAGE Could not bind a reference of component com.sap.it.ds.intrsp.md.api. The reference is: Reference[name = IMetadataService, interface = com.sap.it.ds.intrsp.md.api.service.IMetadataService, policy = dynamic, cardinality = 0..n, target = null, bind = bindMetadataService, unbind = unbindMetadataService]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2020-02-18 11:40:10.732
+!MESSAGE Could not bind a reference of component com.sap.it.ds.intrsp.md.api. The reference is: Reference[name = ICertManagerFacade, interface = com.sap.it.ds.intrsp.md.api.ICertManagerFacade, policy = dynamic, cardinality = 0..n, target = null, bind = bindCertManager, unbind = unbindCertManager]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2020-02-18 11:40:11.028
+!MESSAGE Could not bind a reference of component com.sap.it.ds.intrsp.md.api.odc.impl.edmprovider. The reference is: Reference[name = IHciOdcEdmProvider, interface = com.sap.gateway.core.api.edm.IHciOdcEdmProvider, policy = dynamic, cardinality = 0..1, target = null, bind = bindEdmProvider, unbind = unbindEdmProvider]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2020-02-18 11:40:11.391
+!MESSAGE Could not bind a reference of component com.sap.it.ifl.common.core.generation.manager. The reference is: Reference[name = IPostGeneratorHandler, interface = com.sap.it.gnb.ifl.common.gen.pluggability.api.IPostGeneratorHandler, policy = dynamic, cardinality = 0..n, target = null, bind = bindPostGenerationHandler, unbind = null]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2020-02-18 11:40:11.396
+!MESSAGE Could not bind a reference of component com.sap.it.ifl.common.core.generation.manager. The reference is: Reference[name = IFlowReferenceResolverImpl, interface = com.sap.it.gnb.ifl.common.gen.pluggability.api.IResourceProvider, policy = dynamic, cardinality = 0..1, target = null, bind = bindIFlowReferenceResolver, unbind = null]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2020-02-18 11:40:11.418
+!MESSAGE Could not bind a reference of component com.sap.it.core.ifl.common.ssc.nodeprofile. The reference is: Reference[name = NodeStackProfileAccess, interface = com.sap.it.nm.profile.NodeStackProfileAccess, policy = dynamic, cardinality = 0..1, target = null, bind = bindNodeStackProfileAccess, unbind = unbindNodeStackProfileAccess]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2020-02-18 11:40:12.198
+!MESSAGE Could not bind a reference of component com.sap.it.product.profile.api.LicenseFactory. The reference is: Reference[name = LicenseProvider, interface = com.sap.it.product.profile.api.LicenseProvider, policy = dynamic, cardinality = 0..n, target = null, bind = bindLicenseService, unbind = null]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2020-02-18 11:40:12.204
+!MESSAGE Could not bind a reference of component com.sap.it.product.profile.api.ClientProjectMetadataFactory. The reference is: Reference[name = ClientProjectMetadata, interface = com.sap.it.product.profile.api.ClientProjectMetadata, policy = dynamic, cardinality = 0..1, target = null, bind = bindClientProjectMetadata, unbind = null]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2020-02-18 11:40:12.327
+!MESSAGE Could not bind a reference of component com.sap.it.gnb.ifl.common.manifest.manager. The reference is: Reference[name = IManifestHandler, interface = com.sap.it.gnb.ifl.common.manifest.IManifestHandler, policy = dynamic, cardinality = 0..1, target = null, bind = bindContributors, unbind = null]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2020-02-18 11:40:12.375
+!MESSAGE Could not bind a reference of component com.sap.it.gnb.ifl.common. The reference is: Reference[name = IExternalPropertySource, interface = com.sap.it.ifl.core.common.param.IExternalPropertySource, policy = dynamic, cardinality = 0..1, target = null, bind = bindExternalPropertySource, unbind = null]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2020-02-18 11:40:12.810
+!MESSAGE Could not bind a reference of component com.sap.it.ide.ifl.avatar.runtime.load.WsdlGenerator. The reference is: Reference[name = WsdlGeneratorReference, interface = com.sap.it.gnb.ifl.wsdl.generator.api.IWsdlGenerator, policy = dynamic, cardinality = 0..1, target = null, bind = setWsdlGenerator, unbind = unsetWsdlGenerator]
+
+!ENTRY org.eclipse.equinox.ds 1 0 2020-02-18 11:40:14.653
+!MESSAGE Could not bind a reference of component com.sap.it.mapping.mm.serializer.factory. The reference is: Reference[name = Serializer, interface = com.sap.it.mapping.mm.serializer.Serializer, policy = dynamic, cardinality = 0..n, target = null, bind = addSerializer, unbind = removeSerializer]
+
+!ENTRY org.eclipse.emf.ecore 2 0 2020-02-18 11:40:15.889
+!MESSAGE Both 'com.sap.adt.packages' and 'com.sap.adt.packages' register a package for 'http://www.sap.com/adt/packages'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2020-02-18 11:40:15.906
+!MESSAGE Both 'com.sap.ide.ui5.ctrl.metamodel' and 'com.sap.ndb.studio.model.data' register an extension parser for 'type'
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-02-18 11:40:33.817
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ersah'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2020-02-18 11:40:35.793
+!MESSAGE Removing part descriptor with the 'com.sap.idm.ic.rcp.views.JobsTabularView' id and the 'Jobs' description. Points to the invalid 'bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView' class.
+
+!ENTRY org.eclipse.epp.logging.aeri.ide 2 17 2020-02-18 11:40:39.851
+!MESSAGE Server ‘org.eclipse.epp.logging.aeri.ide.server’ failed with exception: Connect to eclipse.org:443 [eclipse.org/198.41.30.198] failed: connect timed out. ; version: 2.0.4.v20170307-1435
+!STACK 0
+org.apache.http.conn.ConnectTimeoutException: Connect to eclipse.org:443 [eclipse.org/198.41.30.198] failed: connect timed out
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:134)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.request(IO.java:206)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.IO.refreshConfiguration(IO.java:68)
+	at org.eclipse.epp.internal.logging.aeri.ide.server.mars.ServerConnection.startUp(ServerConnection.java:124)
+	at com.google.common.util.concurrent.AbstractIdleService$2$1.run(AbstractIdleService.java:54)
+	at com.google.common.util.concurrent.Callables$3.run(Callables.java:93)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.ssl.SSLConnectionSocketFactory.connectSocket(SSLConnectionSocketFactory.java:244)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	... 16 more
+
+!ENTRY org.eclipse.jface.text 2 0 2020-02-18 11:40:43.756
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2020-02-18 11:40:43.819
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2020-02-18 11:40:44.098
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2020-02-18 11:40:44.121
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface 2 0 2020-02-18 11:40:44.660
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-02-18 11:40:44.660
+!MESSAGE A conflict occurred for DEL:
+Binding(DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.delete,Delete,
+		Delete the selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b6a4b91,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(DEL,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.delete,Delete,
+		Delete the selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b6a4b91,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialog,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-02-18 11:40:44.660
+!MESSAGE A conflict occurred for CTRL+,:
+Binding(CTRL+,,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.previous,Previous,
+		Navigate to the previous item,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@794c64e6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+,,
+	ParameterizedCommand(Command(com.sap.jvm.profiling.ui.workbench.navigate.previous,Navigate to the previous item,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4c3584c2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialog,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-02-18 11:40:44.660
+!MESSAGE A conflict occurred for CTRL+.:
+Binding(CTRL+.,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.next,Next,
+		Navigate to the next item,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2f4c5b51,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+.,
+	ParameterizedCommand(Command(com.sap.jvm.profiling.ui.workbench.navigate.next,Navigate to the next item,
+		,
+		Category(org.eclipse.core.commands.categories.autogenerated,Uncategorized,Commands that were either auto-generated or have no category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@61018d1c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialog,,,system)
+
+!ENTRY com.sap.ide.ui5.services 1 1 2020-02-18 11:41:29.097
+!MESSAGE Internal Info
+   Plugin Name: SAPUI5 Services
+   Plugin ID  : com.sap.ide.ui5.services
+   Class      : com.sap.ide.ui5.services.preferences.UI5LibrariesRegistry
+   Method     : getBundleNamesUI5CoreLibs
+   Message    : found UI libraries null
+   Exception  : 
+
+
+!ENTRY com.sap.it.ide.rt.profiles 4 0 2020-02-18 11:41:34.275
+!MESSAGE Unable to fetch list of tenants
+[Command][CommandClient][ServerNotConfigured]:Failed to create command Client. Server is not configured.
+!STACK 0
+com.sap.it.commons.command.eclipsechannel.ServerNotConfiguredException: [Command][CommandClient][ServerNotConfigured]:Failed to create command Client. Server is not configured.
+	at com.sap.it.commons.command.eclipsechannel.simplepref.controls.HttpServerConnection.createSynchronousProcessor(HttpServerConnection.java:180)
+	at com.sap.it.commons.command.eclipsechannel.backend.impl.BackendCommandDispatcherFactoryImpl.grantBackendCommandDispatcher(BackendCommandDispatcherFactoryImpl.java:92)
+	at com.sap.it.ide.rt.profiles.actions.RuntimeProfilesFetcher.fetchAllRTProfiles(RuntimeProfilesFetcher.java:127)
+	at com.sap.it.ide.rt.profiles.actions.RuntimeProfilesFetcher.fetchAllRTProfiles(RuntimeProfilesFetcher.java:113)
+	at com.sap.it.ide.rt.profiles.actions.RuntimeProfilesFetcher$9.run(RuntimeProfilesFetcher.java:813)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:162)
+	at org.eclipse.ui.internal.UISynchronizer$3.run(UISynchronizer.java:154)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.msgFilterProc(Display.java:3541)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2547)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:506)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4897)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1656)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5110)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2547)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:506)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4897)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1656)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5110)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2552)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3822)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
